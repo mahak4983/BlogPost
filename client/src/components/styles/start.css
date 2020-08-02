@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Rowdies:wght@700&display=swap');
+
+.contain{
+   
+    margin: 0%;
+    height: 60vh;
+    width: 100%;
+    padding: 0%;
+    background-image: url('../../images/start.jpg');
+    background-size: 110% 100%;
+    background-position: center center;
+    /* background-color:rgb(17, 17, 17);
+    background-blend-mode: screen; */
+    
+}
+.darken-pseudo {
+    position: relative;
+  }
+  
+  .darken-pseudo:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .darken-with-text h1 {
+    margin: 0;
+    font-size: 300%;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    padding-top: 35%;
+    position: relative;
+    z-index: 1;
+  }
+  .darken-with-text p {
+    margin: 0;
+    font-size: 150%;
+    text-align: center;
+    color: white;
+    /* padding-top: 35%; */
+    position: relative;
+    z-index: 1;
+  }
+
+  .container-fluid{
+      text-align: center;
+      padding:5%;
+  }
+  .card-title{
+      font-family: Rowdies;
+      font-size: 250%;
+      margin:2%;
+  }
+  img{
+      margin:3%;
+      width:60%;
+  }
+  .footer {
+      background-color: black; 
+      color: honeydew; 
+      padding: 5%;
+      text-align: center;
+  }
+
+  .footer h1{
+      font-size: 250%;
+      font-weight: bolder;
+      margin:3%;
+  }
+  .footer p {
+    font-size: 150%;
+
+  }
+
+
+.footer-social {
+    font-size: 2rem;
+    /* // width: 30%;
+    // margin-left: 50%; */
+    display: flex;
+    justify-content: space-evenly;
+
+    /* // transform: translate(-50%, 0); */
+    margin-bottom: 2rem;
+
+}
+        .footer-social> footer-social-item {
+            display: block;
+            text-align: center;
+        }
+
+
+  .fade-in {
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+    -ms-animation: fadeIn ease 3s;
+    }
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+  @media only screen and (min-width: 728px) {
+    .contain{
+   
+        margin: 0%;
+        height: 75vh;
+        width: 100%;
+        padding: 0%;
+        background-image: url('../../images/start.jpg');
+        background-size: cover;
+        background-position: center center;
+        /* background-color:rgb(17, 17, 17);
+        background-blend-mode: screen; */
+        
+    }
+  .darken-with-text h1 {
+    font-size: 500%;
+    padding-top: 10%;
+
+  
+}
+.card-title{
+    font-family: Rowdies;
+    font-size: 350%;
+}
+.footer h1 {
+    font-size: 350%;
+}
+  }
